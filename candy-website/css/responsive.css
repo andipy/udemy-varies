@@ -1,0 +1,12 @@
+@media ( max-width: 1300px ) {
+    
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+    .container-fluid h2 {
+        font-size: 2rem;
+    }
+
+}

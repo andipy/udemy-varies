@@ -1,0 +1,42 @@
+/********************************
+GENERAL
+********************************/
+body {
+	width: 100%;
+}
+
+#total {
+	width: 50%;
+	margin: 0 auto;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
+
+tr {
+	height: 100px;
+}
+
+td {
+	width: 100px;
+}
+
+tr .brdlftrgt {
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+}
+
+tr .brdupdw {
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+}
+
+tr #brdtot {
+	border: 2px solid red;
+}

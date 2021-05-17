@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style>
+        #header {
+            background: url(data:image/jpeg;base64,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);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>    
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-binoculars mr-2"></i>Pattern</a>
+        </div>
+    </nav>
+    <section id="header" class="jumbotron text-center">
+        <h1 class="display-3">PATTERN</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <a class="btn btn-primary" href="#" role="button">Do something</a>
+        <a class="btn btn-success" href="#" role="button">Another thing</a>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://i0.wp.com/thezebrablog.com/wp-content/uploads/2016/06/brise-soleil-1.jpg?fit=4539%2C2538" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card</h5>
+                            <p class="card-text">bla bla bla bla bla</p>
+                            <a class="btn btn-outline-success btn-sm" href="" role="button">Download</a>
+                            <a class="btn btn-outline-danger btn-sm" href="" role="button"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="https://i0.wp.com/thezebrablog.com/wp-content/uploads/2016/06/brise-soleil-1.jpg?fit=4539%2C2538" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card</h5>
+                            <p class="card-text">bla bla bla bla bla</p>
+                            <a class="btn btn-outline-success btn-sm" href="" role="button">Download</a>
+                            <a class="btn btn-outline-danger btn-sm" href="" role="button"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="https://i0.wp.com/thezebrablog.com/wp-content/uploads/2016/06/brise-soleil-1.jpg?fit=4539%2C2538" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Card</h5>
+                            <p class="card-text">bla bla bla bla bla</p>
+                            <a class="btn btn-outline-success btn-sm" href="" role="button">Download</a>
+                            <a class="btn btn-outline-danger btn-sm" href="" role="button"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

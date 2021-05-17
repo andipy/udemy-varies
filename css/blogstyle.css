@@ -1,0 +1,33 @@
+/**************************
+GENERAL
+**************************/
+
+body {
+	width: 45%;
+	margin: 1.35em auto;
+	border: 1.35em solid #bdc3c7;
+	padding: 0em 2em;
+	font-family: 'Source Sans Pro', serif;
+}
+
+h2 {
+	font-size: 2rem;	
+}
+
+h4 {
+	color: #47b8ff;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 0.2rem;
+	margin-bottom: 1.5em;
+}
+
+p {
+	font-size: 0.9em;
+	line-height: 1.3em;
+}
+
+.firstp {
+	border-left: 0.35em solid #bdc3c7;
+	padding: 0 0 0 0.35em;
+}

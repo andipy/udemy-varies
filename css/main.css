@@ -1,0 +1,19 @@
+/*****************************
+GENERAL
+*****************************/
+
+#title h1 {
+	clear: both;
+	width: 30%;
+	margin: 1.66%;
+	padding: 0 0 20px 0;
+	border-bottom: 2px solid #f1f1f1;
+	font-family: 'Raleway';
+	font-size: bold;
+}
+
+#gallery img {
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+}

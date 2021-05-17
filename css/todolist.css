@@ -1,0 +1,11 @@
+/*********************
+GENERAL
+*********************/
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.selected {
+    color: red;
+}
